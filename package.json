@@ -1,7 +1,7 @@
 {
-  "name": "wechat-enterprise-sdk",
+  "name": "skyline-wechat-enterprise-sdk",
   "version": "0.2.0",
-  "description": "Wechat cryptor service.",
+  "description": "Wechat cryptor service. base on wechat-enterprise-sdk 0.2.0",
   "main": "index.js",
   "devDependencies": {
     "babel": "^5.8.20",
@@ -23,20 +23,28 @@
   "keywords": [
     "wechat"
   ],
-  "author": "lynweklm@gmail.com",
+  "author": {
+    "name": "lynweklm@gmail.com"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Brooooooklyn/wechat-api.git"
+    "url": "git+https://github.com/jchbh-duplicate/wechat-api.git"
   },
   "bugs": {
-    "url": "https://github.com/Brooooooklyn/wechat-api/issues"
+    "url": "https://github.com/jchbh-duplicate/wechat-api/issues"
   },
-  "homepage": "https://github.com/Brooooooklyn/wechat-api#readme",
+  "homepage": "https://github.com/jchbh-duplicate/wechat-api#readme",
   "dependencies": {
     "config": "^1.15.0",
     "request": "^2.60.0",
     "thenjs": "^2.0.0",
     "xml2js": "^0.4.9"
-  }
+  },
+  "maintainers": [
+    {
+      "name": "waiter",
+      "email": "waiter@orgrimmar.io"
+    }
+  ]
 }
